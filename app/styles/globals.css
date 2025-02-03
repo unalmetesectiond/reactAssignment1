@@ -1,0 +1,43 @@
+body, html {
+    background: url('/anime-bg.jpg') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 10px #ffcc00;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  button {
+    padding: 12px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
